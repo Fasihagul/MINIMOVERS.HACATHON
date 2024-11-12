@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+        font-family: "Playwrite GB S", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        text-transform: uppercase;
+      }
+nav {
+    background-color: #f36f6f;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(208, 107, 137, 0.1);
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #56d4dd;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #e77388;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #6bded3;
+}
+
+.nav-btn {
+    background-color: #4bd8e5;
+    padding: 0.5rem 1rem;
+    border: none;
+    color: rgb(187, 94, 94);
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-btn:hover {
+    background-color: #78e3ed;
+}
+.shop { 
+background-color: #5cdfe4;
+ }
+ body {
+    font-family: Arial, sans-serif;
+}
+
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.card p {
+    padding: 0 10px 10px;
+    color: #3d6f79;
+}
+.container1 {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    max-width: 100%;
+    height: auto;
+    margin-right: 20px; 
+}
+
+.box {
+    border: 1px solid #ce2727; 
+    padding: 10px;
+    background-color: #bb5b70; 
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+}
+.whyus{
+border: 10px dotted rgb(156, 237, 236);
+ margin: 0 auto 0 auto;
+padding: 0 auto 0 auto ; 
+background-color: rgb(246, 193, 246);
+
+}
+   
+  
